@@ -19,8 +19,6 @@ while ( contando > -1){
    contando--
 }
 
-*/
-
 let numero = prompt("Digite um número maior que 0");
 
 while (numero < 0 ){
@@ -30,5 +28,16 @@ while (numero < 0 ){
  contando = numero;
  while (contando > -1){
    console.log(`Número: ${contando}`);
-   contando--
+   contando--;
  }
+
+*/
+
+let numero = prompt("Digite um número, o mesmo tem que ser maior que zero: ");
+contagemProgressiva = 0;
+
+while(contagemProgressiva <= numero){
+   console.log(contagemProgressiva);
+   contagemProgressiva++;
+
+}
